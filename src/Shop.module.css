@@ -9,7 +9,7 @@
     align-items: center;
     min-width: 25%;
     max-width: 25%;
-    height: 50vh;
+    height: 55vh;
     margin-top: 40px;
 
 }
@@ -17,13 +17,16 @@
 a{
     text-decoration: none;
     color: black;
-    margin: -20px;
+    margin: -40px;
 }
 img{
     height: 200px;
     width: auto;
-    margin-top: 30px;
+    margin-bottom: 40px;
     
+}
+.img {
+    height: 300px;
 }
 
 

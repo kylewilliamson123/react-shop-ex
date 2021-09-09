@@ -13,6 +13,7 @@ p{
 
 h3{
     font-size: 32px;
+    
 }
 button{
     height: 40px;
@@ -22,12 +23,44 @@ button{
     border-radius: 20px;
     margin-top: 20px;
 }
-
 img{
+    height: 500px;
+    width: auto;
+    max-width: 700px;
+}
+
+a img{
     height: 200px;
     width: auto;
+    margin-bottom: 70px;
 }
 p{
     width: 60%;
     margin: 20px auto;
+    font-size: 26px;
+    
   }
+  .container{
+      background:black;
+  }
+  .item-desc{
+    display: flex;
+    align-items: center; 
+    
+  }
+  button{
+      width: 200px;
+      border-radius: 30px !important;
+  }
+
+  .align-items-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  h2{
+      margin-top: 80px !important;
+      margin-bottom: 40px !important;
+  }
+  

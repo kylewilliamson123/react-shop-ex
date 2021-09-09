@@ -6,6 +6,12 @@ import style from './Shop.module.css'
 
 function Shop() {
 
+  const navStyle ={
+    color: 'black',
+    textDecoration: 'none'
+    
+}
+
     useEffect(() => {
         fetchItems();
     },[]);
@@ -24,7 +30,7 @@ function Shop() {
     <div className = "shop-grid">
       {items.map(item =>    (
           <div className = {style.items} key = {item.id}> 
-              <Link to={`/shop/${item.id}`}>
+              <Link to={`/shop/${item.id}`} style={navStyle}>
                   <h2> {item.title} </h2>
                   <img  src={item.image}/></Link>
                   <h3>${item.price}</h3>

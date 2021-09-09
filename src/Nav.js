@@ -7,7 +7,8 @@ import Logo from './Logo.png'
 function Nav() {
 
     const navStyle ={
-        color: 'white'
+        color: 'white',
+        textDecoration: 'none'
         
     }
 
